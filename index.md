@@ -2,6 +2,9 @@
 
 [editor on GitHub](https://github.com/yangsu2022/yangsu0423.github.io/edit/gh-pages/index.md)
 ## CentOS 7 编译 OpenVINO 2022.1
+
+[centos7-install-guide bash script](https://github.com/sammysun0711/openvino/blob/centos7-install-guide/scripts/centos7_install_guide.sh)
+
 脚本目录：
 1.	配置CentOS 7.6的系统依赖和安装anaconda
 2.	下载CMake 3.18.4
