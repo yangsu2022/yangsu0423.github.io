@@ -1,6 +1,3 @@
-## Welcome!
-
-[editor on GitHub](https://github.com/yangsu2022/yangsu0423.github.io/edit/gh-pages/index.md)
 ## CentOS 7 编译 OpenVINO 2022.1
 
 [centos7-install-guide bash script](https://github.com/sammysun0711/openvino/blob/centos7-install-guide/scripts/centos7_install_guide.sh)
@@ -24,3 +21,4 @@ $ ./scripts/centos_install_guide.sh -g 7 -p 8 -c ~ -m resnet-50-pytorch -b true
 
 -在centos7.6这八种环境下的OpenVINO 2022.1的安装和使用测试已经通过。GCC (7.3.1, 8.3.1), Python (3.6, 3.7, 3.8, 3.9)
 
+[editor on GitHub](https://github.com/yangsu2022/yangsu0423.github.io/edit/gh-pages/index.md)
