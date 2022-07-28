@@ -2,15 +2,15 @@
 
 [editor on GitHub](https://github.com/yangsu2022/yangsu0423.github.io/edit/gh-pages/index.md)
 ## CentOS 7 编译 OpenVINO 2022.1
-####脚本目录：
+脚本目录：
 1.	配置CentOS 7.6的系统依赖和安装anaconda
 2.	下载CMake 3.18.4
 3.	devtoolset配置gcc和conda配置python环境
 4.	CMake编译OpenVINO
 5.	pip安装python wheel
 6.	benchmark_app测试模型和提供OpenVINO的CLI
-####脚本用法
-#####举例
+
+脚本用法
 
 ```markdown
 $ git clone https://github.com/sammysun0711/openvino.git -b centos7-install-guide && cd openvino
