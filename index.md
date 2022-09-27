@@ -22,3 +22,13 @@ $ ./scripts/centos_install_guide.sh -g 7 -p 8 -c ~ -m resnet-50-pytorch -b true
 -在centos7.6这八种环境下的OpenVINO 2022.1的安装和使用测试已经通过。GCC (7.3.1, 8.3.1), Python (3.6, 3.7, 3.8, 3.9)
 
 [editor on GitHub](https://github.com/yangsu2022/yangsu0423.github.io/edit/gh-pages/index.md)
+
+
+## Intro to oneAPI DEMO with VS-Code Extensions 
+![image](https://user-images.githubusercontent.com/102195992/192468653-d40d0509-e7bf-4716-bfbc-404b09f970db.png)
+
+### vector-add Sample
+![image](https://user-images.githubusercontent.com/102195992/192469092-58f4f804-d232-4c41-9056-eb1484f23766.png)
+
+
+
