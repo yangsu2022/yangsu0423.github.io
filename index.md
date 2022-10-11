@@ -4,6 +4,20 @@
 
 ## Intro to oneAPI
 
+### Concepts
+
+-SYCL
+
+SYCL (pronounced ‘sickle’) represents an industry standardization effort that includes support for data-parallel programming for C++. It is summarized as “C++ Single-source Heterogeneous Programming for OpenCL.” The SYCL standard, like OpenCL, is managed by the __Khronos Group__.
+
+SYCL is a cross-platform abstraction layer that builds on OpenCL. It enables code for heterogeneous processors to be written in a “single source” style using C++. This is not only useful to the programmers, but it also gives a compiler the ability to analyze and optimize across the entire program regardless of the device on which the code is to be run.
+
+Unlike OpenCL, SYCL includes templates and lambda functions to enable higher-level application software to be cleanly coded with optimized acceleration of kernel code. Developers program at a higher level than OpenCL but always have access to lower-level code through seamless integration with OpenCL, as well as C/C++ libraries.
+
+-DPC++
+
+Data Parallel C++ (DPC++) is oneAPI's implementation of SYCL compiler. It takes advantage of modern C++ productivity benefits and familiar constructs, and incorporates the SYCL* standard for data parallelism and heterogeneous programming. DPC++ is a single source language where host code and heterogeneous accelerator kernels can be mixed in same source files. A DPC++ program is invoked on the host computer and offloads the computation to an accelerator. Programmers use familiar C++ and library constructs with added functionalities like a queue for work targeting, buffer for data management, and parallel_for for parallelism to direct which parts of the computation and data should be offloaded.
+
 ### Download and installation of oneAPI
 https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?operatingsystem=linux&distributions=webdownload&options=offline
 
